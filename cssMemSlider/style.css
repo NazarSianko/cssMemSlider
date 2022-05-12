@@ -1,0 +1,23 @@
+.wrapper {
+    width:100em;
+    height:60em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.slider {
+    max-width:60%;
+   
+
+}
+.slider-imgs,
+.slider-text,
+.slider-btns {
+    display: flex;
+}
+.slider-btns {
+    display:flex;
+    justify-content: end;
+    width:100%;
+}
