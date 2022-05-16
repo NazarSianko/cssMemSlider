@@ -134,14 +134,29 @@ label {
 }
 @media (max-width:650px) {
     .slider-btns {
-        margin-top: 0;
-        justify-content: center;
-        margin-left:0;
+      
+        justify-content: normal;
+        max-width: 7rem;
+        margin: 0 auto;
+       
        
     }
     .slider-title {
         margin: 0 auto;
         text-align: center;
-        padding-left:1.5rem;
+        padding:0px;
+    }
+}
+@media (max-width:460px) {
+    #r2:checked ~ .slides > .s1 {
+        margin-left: -26.7%;
+        
+    }
+    #r3:checked ~ .slides > .s1 {
+        margin-left: -53%;
+       
+    }
+    #r4:checked ~ .slides > .s1 {
+        margin-left: -79%;
     }
 }
